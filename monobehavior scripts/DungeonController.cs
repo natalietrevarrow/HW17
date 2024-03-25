@@ -63,6 +63,22 @@ public class DungeonController : MonoBehaviour
             this.westPellet.SetActive(false);
         }
     }
+
+    private void setMonster()
+    {
+        if (!theCurrentRoom.hasMonster)
+        {
+            if(Input.GetKeyUp(KeyCode.UpArrow))
+            {
+                Monster mon1 = new Monster(monster1)
+            }
+
+             if(Input.GetKeyUp(KeyCode.DownArrow))
+            {
+                Monster mon2 = new Monster(monster2)
+            }
+        }
+    }
     // Update is called once per frame
     void Update()
     {
