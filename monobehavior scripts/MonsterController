@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class MonsterController : MonoBehaviour
 {
-  public GameObject Monster;
+  public Monster(string name)
+  {
+      this.name = name;
+  }
 }
